@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>C:\wampconfile\wamp\www\inforextend\Tpl\Admin\index

@@ -1,0 +1,1626 @@
+[ 2015-05-06T20:33:20+08:00 ] 127.0.0.1 /inforextend/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.013131s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: show C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Index\afb2426c97413ab415fb3eb793b642e8.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025755s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003226s ]
+
+[ 2015-05-06T20:42:58+08:00 ] 127.0.0.1 /inforextend/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.006905s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: show C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Index\afb2426c97413ab415fb3eb793b642e8.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024488s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001803s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001198s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006870s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003099s ]
+
+[ 2015-05-06T20:43:29+08:00 ] 127.0.0.1 /inforextend/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.197734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.197983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+ERR: 无法加载模块:index
+
+[ 2015-05-06T20:44:45+08:00 ] 127.0.0.1 /inforextend/index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002493s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.011131s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.000667s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: show C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Index\afb2426c97413ab415fb3eb793b642e8.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026149s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001888s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008862s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001220s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2015-05-06T20:44:53+08:00 ] 127.0.0.1 /inforextend/index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002051s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.010222s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: show C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Index\afb2426c97413ab415fb3eb793b642e8.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030782s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005042s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004363s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015688s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002965s ]
+
+[ 2015-05-06T20:45:02+08:00 ] 127.0.0.1 /inforextend/index.php/Index/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001560s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001707s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002011s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.008265s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.099049s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: show C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Index\afb2426c97413ab415fb3eb793b642e8.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002019s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007250s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2015-05-06T20:45:10+08:00 ] 127.0.0.1 /inforextend/index.php/Index/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001491s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.007717s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: show C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Index\afb2426c97413ab415fb3eb793b642e8.php 第 103 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061504s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001808s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001898s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001969s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002344s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002566s ]
+
+[ 2015-05-06T20:45:29+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012708s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001358s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001718s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2015-05-06T20:45:53+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Admin/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003804s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004113s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-06T20:46:08+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002442s ]
+ERR: 无法加载模块:Admin
+
+[ 2015-05-06T20:46:17+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002291s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004023s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061692s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002252s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002051s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002095s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009295s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001881s ]
+
+[ 2015-05-06T20:47:15+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+ERR: 无法加载模块:admin
+
+[ 2015-05-06T20:47:42+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/index/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002203s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+ERR: 无法加载模块:index
+
+[ 2015-05-06T20:47:57+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:index
+
+[ 2015-05-06T20:48:17+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/index/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002868s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003352s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+ERR: 无法加载模块:index
+
+[ 2015-05-06T20:48:22+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001385s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018364s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002674s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002373s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002116s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010539s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002330s ]
+
+[ 2015-05-06T20:51:38+08:00 ] 127.0.0.1 /inforextend/index.php/Index/Index/people.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `my_peopleinfor` [ RunTime:0.013929s ]
+SQL: SELECT * FROM `my_peopleinfor` WHERE ( `mark` = 1 )  [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001847s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002235s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009665s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002895s ]
+
+[ 2015-05-06T20:52:31+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/people.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003459s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003906s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+ERR: 非法操作:people
+
+[ 2015-05-06T20:52:35+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001998s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007497s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001743s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001910s ]
+
+[ 2015-05-06T20:52:58+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant detail_json - assumed 'detail_json' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Admin\fbcf9698677a2ef989818d2f25b9db5f.php 第 440 行.
+NOTIC: [8] Use of undefined constant detail_json4 - assumed 'detail_json4' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Admin\fbcf9698677a2ef989818d2f25b9db5f.php 第 518 行.
+NOTIC: [8] Use of undefined constant detail_json1 - assumed 'detail_json1' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Admin\fbcf9698677a2ef989818d2f25b9db5f.php 第 581 行.
+NOTIC: [8] Use of undefined constant detail_json2 - assumed 'detail_json2' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Admin\fbcf9698677a2ef989818d2f25b9db5f.php 第 649 行.
+NOTIC: [8] Use of undefined constant detail_json3 - assumed 'detail_json3' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Admin\fbcf9698677a2ef989818d2f25b9db5f.php 第 703 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005667s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2015-05-06T20:53:01+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/detail_json.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003244s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003499s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `my_peopleinfor` [ RunTime:0.010190s ]
+SQL: SELECT * FROM `my_peopleinfor` WHERE ( `mark` = 1 )  [ RunTime:0.001224s ]
+
+[ 2015-05-06T20:53:01+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/detail_json4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002124s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+SQL: SHOW COLUMNS FROM `my_technology` [ RunTime:0.083674s ]
+ERR: 1146:Table 'think.my_technology' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_technology`
+SQL: SELECT * FROM `my_technology` WHERE ( `mark` = 1 )  [ RunTime:0.002238s ]
+ERR: 1146:Table 'think.my_technology' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_technology` WHERE ( `mark` = 1 ) 
+
+[ 2015-05-06T20:53:01+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/detail_json1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003230s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `my_productinfor` [ RunTime:0.120621s ]
+SQL: SELECT * FROM `my_productinfor` WHERE ( `mark` = 1 )  [ RunTime:0.000678s ]
+
+[ 2015-05-06T20:53:01+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/detail_json2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002562s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003918s ]
+SQL: SHOW COLUMNS FROM `my_show` [ RunTime:0.011820s ]
+SQL: SELECT * FROM `my_show` WHERE ( `mark` = 1 )  [ RunTime:0.000610s ]
+
+[ 2015-05-06T20:53:02+08:00 ] 127.0.0.1 /inforextend/index.php/Admin/Index/detail_json3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002414s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002205s ]
+SQL: SHOW COLUMNS FROM `my_team` [ RunTime:0.107528s ]
+SQL: SELECT * FROM `my_team` WHERE ( `mark` = 1 )  [ RunTime:0.062514s ]
+
+[ 2015-05-06T20:54:08+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001436s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001608s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066948s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001402s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005888s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006524s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008701s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000192s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000208s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000052s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009677s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002394s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002572s ]
+
+[ 2015-05-06T20:56:20+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/inserttable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003933s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+SQL: SHOW COLUMNS FROM `my_custom` [ RunTime:0.579655s ]
+SQL: INSERT INTO `my_custom` (`webtitle`,`navname`,`navicon`,`blocktitle`,`blockdetail`,`number`) VALUES ('加油','hello','方法','发','就',2) [ RunTime:1.225486s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001364s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001278s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2015-05-06T20:56:21+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/insertfield/webtitle/%E5%8A%A0%E6%B2%B9/number/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001413s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant custom - assumed 'custom' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\9621a9b0fc7879f3ae62bb0615628421.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001233s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001909s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007329s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002087s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2015-05-06T20:56:57+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/createtable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002730s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003075s ]
+NOTIC: [8] Undefined index: item2 C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 96 行.
+
+[ 2015-05-06T21:01:05+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004548s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036045s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004267s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003587s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017301s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012412s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022446s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000201s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000200s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000047s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.017782s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004128s ]
+
+[ 2015-05-06T21:01:36+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/inserttable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004849s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004283s ]
+SQL: SHOW COLUMNS FROM `my_custom` [ RunTime:0.012330s ]
+SQL: INSERT INTO `my_custom` (`webtitle`,`navname`,`navicon`,`blocktitle`,`blockdetail`,`number`) VALUES ('wang','ning','ningg','ninggg','ningggg',2) [ RunTime:1.015216s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020539s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003012s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002444s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011889s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001981s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2015-05-06T21:01:37+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/insertfield/webtitle/wang/number/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001986s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant custom - assumed 'custom' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\9621a9b0fc7879f3ae62bb0615628421.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002906s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002055s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011467s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2015-05-06T21:02:08+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/createtable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005266s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018672s ]
+NOTIC: [8] Undefined index: item2 C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 96 行.
+
+[ 2015-05-06T21:14:08+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002698s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054049s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001884s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001803s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001789s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002012s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003165s ]
+
+[ 2015-05-06T21:15:13+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/inserttable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004288s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003694s ]
+SQL: SHOW COLUMNS FROM `my_custom` [ RunTime:0.007557s ]
+SQL: INSERT INTO `my_custom` (`webtitle`,`navname`,`navicon`,`blocktitle`,`blockdetail`,`number`) VALUES ('wang','wang','ning','rrr','rr',2) [ RunTime:0.325269s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.344400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.344640s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004549s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014223s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002075s ]
+
+[ 2015-05-06T21:15:15+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/insertfield/webtitle/wang/number/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001782s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant custom - assumed 'custom' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\9621a9b0fc7879f3ae62bb0615628421.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002021s ]
+
+[ 2015-05-06T21:15:36+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/createtable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003157s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [8] Undefined index: item2 C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 96 行.
+
+[ 2015-05-06T21:16:37+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002530s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019859s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002136s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001996s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002038s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008920s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002146s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002282s ]
+
+[ 2015-05-06T21:17:00+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/inserttable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008219s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006670s ]
+SQL: SHOW COLUMNS FROM `my_custom` [ RunTime:0.010729s ]
+SQL: INSERT INTO `my_custom` (`webtitle`,`navname`,`navicon`,`blocktitle`,`blockdetail`,`number`) VALUES ('1','11','111','1111','11111',2) [ RunTime:0.659451s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027775s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002064s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002132s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001671s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008127s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2015-05-06T21:17:01+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/insertfield/webtitle/1/number/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002621s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002793s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant custom - assumed 'custom' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\9621a9b0fc7879f3ae62bb0615628421.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020318s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002144s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001745s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008207s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002807s ]
+
+[ 2015-05-06T21:17:19+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/createtable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004817s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+NOTIC: [8] Undefined index: item2 C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 96 行.
+
+[ 2015-05-06T21:18:24+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004820s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003804s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002102s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001906s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008662s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002261s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002391s ]
+
+[ 2015-05-06T21:18:45+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/inserttable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003841s ]
+SQL: SHOW COLUMNS FROM `my_custom` [ RunTime:0.009949s ]
+SQL: INSERT INTO `my_custom` (`webtitle`,`navname`,`navicon`,`blocktitle`,`blockdetail`,`number`) VALUES ('a','aa','aaa','aaaa','aaaaa',2) [ RunTime:0.336169s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020624s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002007s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001953s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001647s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008027s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002617s ]
+
+[ 2015-05-06T21:18:46+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/insertfield/webtitle/a/number/2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002107s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002259s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant custom - assumed 'custom' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\9621a9b0fc7879f3ae62bb0615628421.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001755s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002056s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007781s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002572s ]
+
+[ 2015-05-06T21:19:01+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/createtable.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003640s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003905s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005081s ]
+NOTIC: [8] Undefined index: item2 C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 96 行.
+
+[ 2015-05-06T21:22:59+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/newfile.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017383s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001820s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007680s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003245s ]
+
+[ 2015-05-06T21:23:07+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/newfile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+NOTIC: [8] Constant THEME_NAME already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined C:\wampconfile\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016915s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002081s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001855s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008196s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002472s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002616s ]
+
+[ 2015-05-06T21:23:31+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writrefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002978s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002417s ]
+ERR: 非法操作:writrefile
+
+[ 2015-05-06T21:23:39+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002689s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018322s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001993s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001817s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001741s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007798s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002119s ]
+
+[ 2015-05-06T21:26:22+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002325s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+
+[ 2015-05-06T21:26:28+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writrefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+
+[ 2015-05-06T21:26:38+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002481s ]
+
+[ 2015-05-06T21:27:28+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+
+[ 2015-05-06T21:28:05+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002651s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+
+[ 2015-05-06T21:28:18+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002372s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002973s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010674s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002161s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2015-05-06T21:29:44+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002655s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001756s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001754s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002083s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001950s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2015-05-06T21:30:03+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+
+[ 2015-05-06T21:30:15+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002389s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002638s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002071s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008957s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002272s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002448s ]
+
+[ 2015-05-06T21:31:13+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017058s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002337s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001730s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002298s ]
+
+[ 2015-05-06T21:34:08+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002657s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002148s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018856s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001902s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001913s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001853s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008035s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002041s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002169s ]
+
+[ 2015-05-06T21:34:09+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002512s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016988s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001725s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001664s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007741s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002354s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002534s ]
+
+[ 2015-05-06T21:34:09+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002237s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002866s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 6 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\f085533f514931d9af2497e6fbbb4b79.php 第 7 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017807s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001849s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001780s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001615s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007600s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002428s ]
+
+[ 2015-05-06T21:35:01+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002348s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+NOTIC: [8] Use of undefined constant newfile - assumed 'newfile' C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018115s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001916s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002551s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010441s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002623s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002809s ]
+
+[ 2015-05-06T21:35:03+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002112s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+NOTIC: [8] Use of undefined constant newfile - assumed 'newfile' C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017920s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001821s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001508s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007377s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002238s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2015-05-06T21:35:04+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002372s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+NOTIC: [8] Use of undefined constant newfile - assumed 'newfile' C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021254s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001871s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001797s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001945s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007661s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002597s ]
+
+[ 2015-05-06T21:36:27+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+NOTIC: [8] Use of undefined constant newfile - assumed 'newfile' C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017038s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001785s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002622s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001682s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008634s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002304s ]
+
+[ 2015-05-06T21:36:28+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/writefile
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002183s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002333s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+NOTIC: [8] Use of undefined constant newfile - assumed 'newfile' C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\557d1bf3d3d1fcd39de467cf9df78b91.php 第 1 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001870s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001697s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001512s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001959s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002088s ]
+
+[ 2015-05-06T21:37:37+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004983s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002335s ]
+SQL: SHOW COLUMNS FROM `my_1` [ RunTime:0.007815s ]
+ERR: 1146:Table 'think.my_1' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `my_1`
+SQL: SELECT * FROM `my_1` WHERE ( `mark` = 1 )  [ RunTime:0.001056s ]
+ERR: 1146:Table 'think.my_1' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `my_1` WHERE ( `mark` = 1 ) 
+NOTIC: [2] mysql_list_fields() [<a href='function.mysql-list-fields'>function.mysql-list-fields</a>]: Unable to save MySQL query result C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 140 行.
+NOTIC: [2] mysql_num_fields() expects parameter 1 to be resource, boolean given C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 141 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blocktitle C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 123 行.
+NOTIC: [8] Undefined variable: blockdetail C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 124 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 133 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 133 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 157 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 241 行.
+NOTIC: [8] Undefined index: i C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 241 行.
+NOTIC: [8] Undefined index: +i+ C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 255 行.
+NOTIC: [8] Undefined index: 0 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 257 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 258 行.
+NOTIC: [8] Undefined index: 2 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 259 行.
+NOTIC: [8] Undefined index: 3 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 260 行.
+NOTIC: [8] Undefined index: 4 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 261 行.
+NOTIC: [8] Undefined index: 5 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 262 行.
+NOTIC: [8] Undefined index: 6 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 263 行.
+NOTIC: [8] Undefined index: 7 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 264 行.
+NOTIC: [8] Undefined index: 8 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 265 行.
+NOTIC: [8] Undefined index: 9 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 266 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.185502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185693s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002393s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002774s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011126s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003055s ]
+
+[ 2015-05-06T21:45:31+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+
+[ 2015-05-06T21:45:38+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002573s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002732s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+
+[ 2015-05-06T22:07:06+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+
+[ 2015-05-06T22:29:55+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002713s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+
+[ 2015-05-06T22:29:56+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+
+[ 2015-05-06T22:29:56+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+
+[ 2015-05-06T22:29:56+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+
+[ 2015-05-06T22:30:39+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003616s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003867s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003983s ]
+
+[ 2015-05-06T22:31:59+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004103s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004358s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+
+[ 2015-05-06T22:32:00+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003809s ]
+
+[ 2015-05-06T22:32:01+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003562s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+
+[ 2015-05-06T22:32:08+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009424s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006303s ]
+
+[ 2015-05-06T22:32:28+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002482s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+
+[ 2015-05-06T22:34:20+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002330s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002497s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+
+[ 2015-05-06T22:34:21+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004014s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003583s ]
+
+[ 2015-05-06T22:34:22+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+
+[ 2015-05-06T22:38:15+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002800s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+
+[ 2015-05-06T22:38:15+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002152s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+
+[ 2015-05-06T22:38:16+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005362s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005395s ]
+
+[ 2015-05-06T22:38:16+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002597s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+
+[ 2015-05-06T22:38:16+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002060s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+
+[ 2015-05-06T22:38:16+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002164s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+
+[ 2015-05-06T22:38:17+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003894s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004160s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004361s ]
+
+[ 2015-05-06T22:40:57+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002318s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002466s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+
+[ 2015-05-06T22:40:57+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007338s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006453s ]
+
+[ 2015-05-06T22:40:58+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004212s ]
+
+[ 2015-05-06T22:41:31+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002282s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+
+[ 2015-05-06T22:41:31+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004193s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004447s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+
+[ 2015-05-06T22:42:00+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004100s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003511s ]
+
+[ 2015-05-06T22:42:01+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003411s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+
+[ 2015-05-06T22:42:10+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004586s ]
+
+[ 2015-05-06T22:42:19+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004300s ]
+
+[ 2015-05-06T22:42:30+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003625s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003483s ]
+NOTIC: [2] mysql_list_fields() [<a href='function.mysql-list-fields'>function.mysql-list-fields</a>]: Unable to save MySQL query result C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 139 行.
+NOTIC: [2] mysql_num_fields() expects parameter 1 to be resource, boolean given C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 140 行.
+
+[ 2015-05-06T22:42:47+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004494s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+
+[ 2015-05-06T22:43:51+08:00 ] 127.0.0.1 /inforextend/index.php/Addhtml/Index/showpage/a
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002476s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [2] mysql_list_fields() [<a href='function.mysql-list-fields'>function.mysql-list-fields</a>]: Unable to save MySQL query result C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 139 行.
+NOTIC: [2] mysql_num_fields() expects parameter 1 to be resource, boolean given C:\wampconfile\wamp\www\inforextend\Lib\Action\Addhtml\IndexAction.class.php 第 140 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: blocktitle C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 123 行.
+NOTIC: [8] Undefined variable: blockdetail C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 124 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 133 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 133 行.
+NOTIC: [8] Undefined variable: data C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 150 行.
+NOTIC: [8] Undefined variable: v C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 157 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index: .i. C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 170 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 178 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined index:  C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 179 行.
+NOTIC: [8] Undefined variable: data C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 218 行.
+NOTIC: [8] Use of undefined constant i - assumed 'i' C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 241 行.
+NOTIC: [8] Undefined index: i C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 241 行.
+NOTIC: [8] Undefined index: +i+ C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 255 行.
+NOTIC: [8] Undefined index: 0 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 257 行.
+NOTIC: [8] Undefined index: 1 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 258 行.
+NOTIC: [8] Undefined index: 2 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 259 行.
+NOTIC: [8] Undefined index: 3 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 260 行.
+NOTIC: [8] Undefined index: 4 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 261 行.
+NOTIC: [8] Undefined index: 5 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 262 行.
+NOTIC: [8] Undefined index: 6 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 263 行.
+NOTIC: [8] Undefined index: 7 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 264 行.
+NOTIC: [8] Undefined index: 8 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 265 行.
+NOTIC: [8] Undefined index: 9 C:\wampconfile\wamp\www\inforextend\Runtime\Cache\Addhtml\a353e644069883429ee721d34a642dff.php 第 266 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031685s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002052s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001800s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001608s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008559s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002954s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003125s ]
+

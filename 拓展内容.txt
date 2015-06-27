@@ -1,0 +1,40 @@
+1数据库
+html文件名字兼数据库名字 webtitle
+导航栏名字  navname
+导航栏图标  navicon
+大栏标语  blocktitle
+大栏详情  blockdetail
+订制模块分栏（数目不定 字段显示名字 数据库写入） number 生成对应格子名字
+
+颈椎枕  烤面包机  烤箱 迷你小烤箱
+
+热反应星空马克杯  射击闹钟
+懒骨头沙发   花花座椅  小池·蜻蜓荷叶餐具
+
+我的  topumbrella防UV木柄晴雨长伞
+Homee自动三折晴雨伞（地图）
+问题
+1解决建表失败  字段名相同
+2不懂append对节点操作失败 
+3解决难以获得name为item0的value
+4php引号“‘’”
+5$whichpage
+6所有字段依次赋值为前端的数据
+  输出想对应表的字段
+
+思路发展
+1用户输入界面
+2获得用户输入传往后台
+3后台想custom添加一组固定栏目
+4订制显示数据输入
+4建表
+5形成html文件{$}
+6后台准备输出数据
+7后台获得访问请求，调用相应模板并显示相应数据
+
+
+后端
+CRUD
+create   insert
+remove   delete
+update   edit  update

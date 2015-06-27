@@ -1,0 +1,573 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="/Public/infor/admin.docs.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="/Public/demo/css/patch.css">
+  <link rel="stylesheet" href="/Public/Css/easyui.css" />
+<link rel="stylesheet" href="/Public/css/icon.css" />
+
+    <link rel="stylesheet" type="text/css" href="/Public/demo/demo.css">
+
+<script src="/Public/jquery-easyui/jquery-1.8.0.min.js"></script>
+<script src="/Public/jquery-easyui/jquery.easyui.min.js"></script>
+<link rel="stylesheet" href="/Public/infor/mycss/Admin/datagrid.css" />
+	<title>回收站</title>
+  <script type="text/javascript">
+ function init(){
+    var coldiv=document.getElementById("coldiv");
+
+    var scrollTop = 0;
+    window.onscroll= function(){
+      scrollTop=document.body.scrollTop||document.documentElement.scrollTop;
+    if(scrollTop > 250){
+      coldiv.className = 'change';
+            
+    }else{coldiv.className = 'normal';}
+    }
+ }
+  </script>
+<script type="text/javascript">
+var url='';
+function del(index){
+    var row = $('#dg').datagrid('getData').rows[index];
+    //var row = $('#dg').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认删除','您确定要彻底删除此成员吗?',function(r){
+            if (r){
+                $.post('__URL__/delete',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }
+}
+
+function del1(index){
+    var row = $('#dg1').datagrid('getData').rows[index];
+    //var row = $('#dg1').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认删除','您确定要彻底删除此产品吗?',function(r){
+            if (r){
+                $.post('__URL__/delete1',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg1').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg1').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }
+}
+
+function del2(index){
+    var row = $('#dg2').datagrid('getData').rows[index];
+    //var row = $('#dg2').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认删除','您确定要彻底删除此首页信息吗?',function(r){
+            if (r){
+                $.post('__URL__/delete2',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg2').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg2').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }
+}
+
+function del3(index){
+    var row = $('#dg3').datagrid('getData').rows[index];
+    //var row = $('#dg3').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认删除','您确定要彻底删除此整体信息吗?',function(r){
+            if (r){
+                $.post('__URL__/delete3',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg3').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg3').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }
+}
+function del4(index){
+    var row = $('#dg4').datagrid('getData').rows[index];
+    //var row = $('#dg2').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认删除','您确定要彻底删除此首页信息吗?',function(r){
+            if (r){
+                $.post('__URL__/delete4',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg4').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg4').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }
+}
+
+
+
+
+function cancel (index) {
+    var row = $('#dg').datagrid('getData').rows[index];
+    //var row = $('#dg').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认还原','您确定要恢复此成员吗?',function(r){
+            if (r){
+                $.post('__URL__/altermarkBack',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }    
+}
+function cancel1 (index) {
+    var row = $('#dg1').datagrid('getData').rows[index];
+    //var row = $('#dg1').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认还原','您确定要恢复此产品吗?',function(r){
+            if (r){
+                $.post('__URL__/altermarkBack1',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg1').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg1').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }    
+}
+function cancel2 (index) {
+    var row = $('#dg2').datagrid('getData').rows[index];
+    //var row = $('#dg2').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认还原','您确定要恢复此产品吗?',function(r){
+            if (r){
+                $.post('__URL__/altermarkBack2',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg2').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg2').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }    
+}
+function cancel3 (index) {
+    var row = $('#dg3').datagrid('getData').rows[index];
+    //var row = $('#dg3').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认还原','您确定要恢复此产品吗?',function(r){
+            if (r){
+                $.post('__URL__/altermarkBack3',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg3').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg3').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }    
+}
+function cancel4 (index) {
+    var row = $('#dg4').datagrid('getData').rows[index];
+    //var row = $('#dg2').datagrid('getSelected');
+    if (row){
+        $.messager.confirm('确认还原','您确定要恢复此产品吗?',function(r){
+            if (r){
+                $.post('__URL__/altermarkBack4',{id:row.id},function(result){
+                    if (result=="1"){
+                        $('#dg4').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg4').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+    }    
+}
+
+
+
+function delall(){
+    //var row = $('#dg').datagrid('getData').rows[index];
+    //var row = $('#dg').datagrid('getSelected');
+    //if (row){
+        $.messager.confirm('确认删除','您确定要清空回收站吗?',function(r){
+            if (r){
+                $.post('__URL__/deleteall',function(result){
+                    if (result=="1"){
+                        $('#dg').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+   // }
+}
+function delall1(){
+    //var row = $('#dg').datagrid('getData').rows[index];
+    //var row = $('#dg').datagrid('getSelected');
+    //if (row){
+        $.messager.confirm('确认删除','您确定要清空回收站吗?',function(r){
+            if (r){
+                $.post('__URL__/deleteall1',function(result){
+                    if (result=="1"){
+                        $('#dg1').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg1').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+   // }
+}
+function delall2(){
+    //var row = $('#dg2').datagrid('getData').rows[index];
+    //var row = $('#dg2').datagrid('getSelected');
+    //if (row){
+        $.messager.confirm('确认删除','您确定要清空回收站吗?',function(r){
+            if (r){
+                $.post('__URL__/deleteall2',function(result){
+                    if (result=="1"){
+                        $('#dg2').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg2').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+   // }
+}
+function delall3(){
+    //var row = $('#dg3').datagrid('getData').rows[index];
+    //var row = $('#dg3').datagrid('getSelected');
+    //if (row){
+        $.messager.confirm('确认删除','您确定要清空回收站吗?',function(r){
+            if (r){
+                $.post('__URL__/deleteall3',function(result){
+                    if (result=="1"){
+                        $('#dg3').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg3').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+   // }
+}
+function delall4(){
+    //var row = $('#dg3').datagrid('getData').rows[index];
+    //var row = $('#dg3').datagrid('getSelected');
+    //if (row){
+        $.messager.confirm('确认删除','您确定要清空回收站吗?',function(r){
+            if (r){
+                $.post('__URL__/deleteall4',function(result){
+                    if (result=="1"){
+                        $('#dg4').datagrid('loadData',{total:0,rows:[]});
+                        $('#dg4').datagrid('reload');    // reload the user data
+                    } else {
+                        $.messager.show({   // show error message
+                            title: 'Error',
+                            msg: result.errorMsg
+                        });
+                    }
+                },'json');
+            }
+        });
+   // }
+}
+
+
+
+ function rowformater(value,row,index)
+ {
+ return "<a href='javascript:void(0)' target='_blank' onclick='cancel("+index+")'>还原</a>"+"&nbsp;&nbsp;&nbsp;"+" <a href='javascript:void(0)' onclick='del("+index+")'>删除</a>";
+ }
+ function rowformater1(value,row,index)
+ {
+ return "<a href='javascript:void(0)' target='_blank' onclick='cancel1("+index+")'>还原</a>"+"&nbsp;&nbsp;&nbsp;"+" <a href='javascript:void(0)' onclick='del1("+index+")'>删除</a>";
+ }
+   function rowformater2(value,row,index)
+ {
+ return "<a href='javascript:void(0)' target='_blank' onclick='cancel2("+index+")'>还原</a>"+"&nbsp;&nbsp;&nbsp;"+" <a href='javascript:void(0)' onclick='del2("+index+")'>删除</a>";
+ }
+   function rowformater3(value,row,index)
+ {
+ return "<a href='javascript:void(0)' target='_blank' onclick='cancel3("+index+")'>还原</a>"+"&nbsp;&nbsp;&nbsp;"+" <a href='javascript:void(0)' onclick='del3("+index+")'>删除</a>";
+ }
+ function rowformater4(value,row,index)
+ {
+ return "<a href='javascript:void(0)' target='_blank' onclick='cancel4("+index+")'>还原</a>"+"&nbsp;&nbsp;&nbsp;"+" <a href='javascript:void(0)' onclick='del4("+index+")'>删除</a>";
+ }
+</script>
+<style>
+table{
+border-style:none;
+}
+</style>
+<style>
+.panel-header,.accordion ,.accordion-header-selected, .panel-title{
+border-radius: 0;
+
+
+}
+</style>
+</head>
+<body data-spy="scroll" data-target="#coldiv" onLoad="init()">
+	<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">Accenture</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="./admin">后台管理</a>
+        </li>
+        <li>
+          <a href="./trash">回收站</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+ <div class="bs-docs-header" id="content">
+      <div class="container">
+        <h1>回收站</h1>
+        <p>数据找回与清理</p>
+      </div>
+ </div>
+
+
+ <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-9" role="main">
+          <div class="bs-docs-section">
+		      <p id="tools1"></p> 
+
+<table id = "dg" class="easyui-datagrid" title="成员列表" style="width:auto; text-align:center"  rownumbers="true" toolbar="#toolbar" singleSelect="true" pagination="true" fitColumns="true" data-options="url:'{:U(trash_json)}'">
+    <thead>
+         <tr>
+            <th data-options="field:'id',width:80">序号</th>
+            <th data-options="field:'name',width:80">名字</th>
+            <th data-options="field:'pcharacter',width:80">性格</th>
+            <th data-options="field:'hobby',width:80">爱好</th>
+            <th data-options="field:'contact',width:80">联系方式</th>
+            <th data-options="field:'professional',width:80">专业</th>
+            <th data-options="field:'picture',width:80">图片</th>
+            <th data-options="field:'ids',width:80,formatter:rowformater">操作</th>
+            </tr>
+        </thead>
+    </table>
+     <div id="toolbar">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="delall()">清空回收站</a>
+    </div>
+          </div>
+
+          <div class="bs-docs-section">
+             <p id="tools2"></p> 
+<table id = "dg1" class="easyui-datagrid" title="产品列表" style="width:auto; text-align:center"  rownumbers="true" toolbar="#toolbar1" singleSelect="true" pagination="true" fitColumns="true" data-options="url:'{:U(trash_json1)}'">
+        <thead>
+            <tr>
+                <th data-options="field:'id',width:80">序号</th>
+                <th data-options="field:'name',width:80">名字</th>
+                <th data-options="field:'function',width:80">功能</th>
+                <th data-options="field:'technology',width:80">技术支持</th>
+                <th data-options="field:'introduction',width:80">介绍</th>
+                <th data-options="field:'picture',width:80">图片</th>
+                <th data-options="field:'ids',width:80,formatter:rowformater1">操作</th>
+            </tr>
+        </thead>
+    </table>
+     <div id="toolbar1">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="delall1()">清空回收站</a>
+    </div>
+          </div>
+
+          <div class="bs-docs-section">
+             <p id="tools3"></p> 
+<table id = "dg2" class="easyui-datagrid" title="首页展示" style="width:auto; text-align:center"  rownumbers="true" toolbar="#toolbar2" singleSelect="true" pagination="true" fitColumns="true" data-options="url:'{:U(trash_json2)}'">
+    <thead>
+         <tr>
+            <th data-options="field:'id',width:80">序号</th>
+            <th data-options="field:'name',width:80">名字</th>
+            <th data-options="field:'introduction',width:80">说明</th>
+            <th data-options="field:'picture',width:80">图片</th>
+            <th data-options="field:'ids',width:80,formatter:rowformater2">操作</th>
+            </tr>
+        </thead>
+    </table>
+     <div id="toolbar2">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="delall2()">清空回收站</a>
+    </div>
+          </div>
+
+          <div class="bs-docs-section">
+             <p id="tools4"></p> 
+<table id = "dg3" class="easyui-datagrid" title="工作室" style="width:auto; text-align:center"  rownumbers="true" toolbar="#toolbar3" singleSelect="true" pagination="true" fitColumns="true" data-options="url:'{:U(trash_json3)}'">
+    <thead>
+         <tr>
+            <th data-options="field:'id',width:80">序号</th>
+            <th data-options="field:'name',width:80">项目</th>
+            <th data-options="field:'history',width:80">之前</th>
+            <th data-options="field:'now',width:80">现状</th>
+            <th data-options="field:'future',width:80">规划</th>
+            <th data-options="field:'others',width:80">其他</th>
+            <th data-options="field:'ids',width:80,formatter:rowformater3">操作</th>
+            </tr>
+        </thead>
+    </table>
+     <div id="toolbar3">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="delall3()">清空回收站</a>
+    </div>
+          </div>
+
+<div class="bs-docs-section">
+             <p id="tools5"></p> 
+<table id = "dg4" class="easyui-datagrid" title="首页展示" style="width:auto; text-align:center"  rownumbers="true" toolbar="#toolbar4" singleSelect="true" pagination="true" fitColumns="true" data-options="url:'{:U(trash_json4)}'">
+    <thead>
+         <tr>
+            <th data-options="field:'id',width:80">序号</th>
+            <th data-options="field:'name',width:80">名字</th>
+            <th data-options="field:'content',width:80">内容</th>
+            <th data-options="field:'picture',width:80">图片</th>
+            <th data-options="field:'link',width:80">链接</th>
+            <th data-options="field:'ids',width:80,formatter:rowformater4">操作</th>
+            </tr>
+        </thead>
+    </table>
+     <div id="toolbar4">
+        <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="delall4()">清空回收站</a>
+    </div>
+          </div>
+        </div>
+        <div class="col-md-3" id="coldiv"> 
+            <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm" role="complementary">
+              <ul class="nav bs-docs-sidenav" >
+                <li >
+                  <a href="#tools1">成员列表</a>
+                </li>
+                <li >
+                  <a href="#tools2">产品列表</a>
+                </li>
+                <li >
+                  <a href="#tools5">技术分享</a>
+                </li>
+                <li >
+                  <a href="#tools3">首页展示</a>
+                </li>
+                 <li >
+                  <a href="#tools4">工作室</a>
+                </li>
+              </ul>
+              <a class="back-to-top" href="#top">返回顶部</a>
+            </div>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+<footer class="bs-docs-footer" role="contentinfo">
+  <div class="container">
+    <p>地址：中国·大连经济技术开发区图强街321号　　大连理工大学软件学院　　邮编：116620</p>
+    <p>&copy;版权所有：lab 　版本信息：网站版本1.0</p>
+    <p>本项目源码受 <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a> 开源协议保护，文档受 <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> 开源协议保护。</p>
+  </div>
+</footer>
+
+
+<!--<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+
+  <script src="/Public/bootstrap-3.3.0-dist/dist/js/bootstrap.min.js">
+  </script>
+
+
+
+  <script src="/Public/demo/js/admin.docs.min.js"></script>-->
+</body>
+</html>
